@@ -1,4 +1,4 @@
-# CircuitPy_BMP_Animations
+# CircuitPy Bitmap Frame Animator
 Display Bitmap Animations on the S2 Nugget in CircuitPython
 
 
