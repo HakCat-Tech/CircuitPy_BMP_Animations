@@ -4,7 +4,7 @@ Display Bitmap Animations on the S2 Nugget in CircuitPython
 
 ## How to use:
 
-* Install CircuitPython on your S2 Nugget
+* Install CircuitPython on your S2 Nugget (see instructions here: https://github.com/HakCat-Tech/S2-Nugget/wiki/Setting-up-CircuitPython)
 * Download the .ZIP file from this repo and open it
 * Drag and drop the code.py file onto your board
 * Drag and drop the /lib folder onto your board
