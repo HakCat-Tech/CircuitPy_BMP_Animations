@@ -10,7 +10,7 @@ import adafruit_framebuf
 import adafruit_displayio_sh1106
 import time
 
-defaultDelay = 0 ## Here you can adjust the amount of time between frames loading
+defaultDelay = 0.01 ## Here you can adjust the amount of time between frames loading
 num_pixels = 1 ## How many neopixels are attached?
 
 animation = []
@@ -20,7 +20,7 @@ for files in os.listdir("/frames/"): ## Creating the animation
         pass
     else:
         animation.append(files) ## Add valid files to animation
-
+animation.sort()
 ## Screen setup and function to change image on the screen
 
 displayio.release_displays()
